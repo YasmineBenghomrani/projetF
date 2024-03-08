@@ -1,0 +1,50 @@
+  <Box
+          className="box"
+          sx={{
+            flexGrow: 1,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: 10,
+          }}
+        >
+          {/* <Link to={"/"}> */}
+          <Typography
+            variant="body2"
+            noWrap
+            component="div"
+            sx={{
+              color: "black",
+              display: { xs: "none", sm: "block" },
+            }}
+          >
+            Shop
+          </Typography>
+          {/* </Link> */}
+          {/* <Link to={"Drinks"}> */}
+          <Typography
+            variant="body2"
+            noWrap
+            component="div"
+            sx={{
+              color: "black",
+              display: { xs: "none", sm: "block" },
+            }}
+          >
+            Men
+          </Typography>
+          {/* </Link> */}
+          {/* <Link to={"Meals"}> */}
+          <Typography
+            variant="body2"
+            noWrap
+            component="div"
+            sx={{
+              color: "black",
+              display: { xs: "none", sm: "block" },
+            }}
+          >
+            Woman
+          </Typography>
+          {/* </Link> */}
+        </Box>
